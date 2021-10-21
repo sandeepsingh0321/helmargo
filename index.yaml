@@ -3,7 +3,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-21T12:31:54.656991242Z"
+    created: "2021-10-21T12:43:56.221479567Z"
     description: A Helm chart for Kubernetes
     digest: d7931f021a05f80087af96696eeb943d6ad9b150f02e9bca7c1d9e8b30bba514
     name: helm-chart-test
@@ -16,7 +16,38 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 1.21.3
-    created: "2021-10-21T12:31:54.660783608Z"
+    created: "2021-10-21T12:43:56.2441157Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common-sandeep
+      version: 1.x.x
+    description: Chart for the nginx server
+    digest: 2bf652c551099c89584af2315d5ee8c1579c767df785e25fb1e44bb34a2dcf4b
+    home: https://github.com/bitnami/charts/tree/master/bitnami/nginx
+    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
+    keywords:
+    - nginx
+    - http
+    - web
+    - www
+    - reverse proxy
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: nginx
+    sources:
+    - https://github.com/bitnami/bitnami-docker-nginx
+    - http://www.nginx.org
+    urls:
+    - https://sandeepsingh0321.github.io/helmargo/nginx-9.5.5.tgz
+    version: 9.5.5
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 1.21.3
+    created: "2021-10-21T12:43:56.233358954Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -43,4 +74,4 @@ entries:
     urls:
     - https://sandeepsingh0321.github.io/helmargo/nginx-9.5.4.tgz
     version: 9.5.4
-generated: "2021-10-21T12:31:54.655683952Z"
+generated: "2021-10-21T12:43:56.216602989Z"
